@@ -36,9 +36,7 @@ body.invert .button
 
 #color
 {
-    position: absolute;
-    right: 12px;
-    top: 12px;
+    float: right;
 }
 
 .button
