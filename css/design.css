@@ -38,9 +38,13 @@ body.invert .button
 {
     float: right;
     margin-top: 8px;
-    margin-right: 4px;
+    margin-right: 6px;
 }
 
+iframe
+{
+    margin-left: 6px;
+}
 .button
 {
     width: 30px;
