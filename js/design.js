@@ -24,7 +24,7 @@ $(document).ready(function() {
             "viewportBreakpoint":380
     });
 
-    if ($.cookie('invert'))
+    if ($.cookie('invert') != 'false')
     {
         $('body').addClass('invert');
     }
