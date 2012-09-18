@@ -1,14 +1,21 @@
 body
 {
-    font-size: 48px;
     margin: 12px;
     font-family: Helvetica;
+    font: 24px/1.8 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    width:80%;
+    padding:20px 0;
+    max-width:960px;
+    margin:0 auto;
+    color: #222;
+    margin-bottom: 32px;
 }
+
 
 body.normal
 {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #FCFCFC;
+    color: #222;
 }
 body.normal .button
 {
@@ -18,8 +25,8 @@ body.normal .button
 
 body.invert
 {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #222;
+    color: #FCFCFC;
 }
 body.invert .button
 {
@@ -56,53 +63,26 @@ body.invert .button
     cursor: pointer;
 }
 
-li
+h1
 {
-    margin-bottom: 36px;
-    margin-left: 36px;
-    cursor: pointer;
+    text-align:left;
+    font-family:'LeagueGothicRegular', "Impact", Charcoal, Arial Black, Gadget, Sans serif;
+    text-transform: uppercase;
+    line-height:1;
+    font-size:300%;
+    /* Remember to set the correct font weight if using fontface */
+    font-weight:normal;
 }
 
-ol
-{
-    font-weight: bold;
-}
 
-div.author
-{
-    float: right;
-    text-align: right;
-    margin-right: 24px;
-    width: 50%;
-    font-size: 32px;
-    font-style: italic;
-    cursor: pointer;
-    margin-bottom: 24px;
-}
-
-div.author .explain
-{
-    float: right;
-}
-
-div.author img
+p img
 {
     float: left;
     background-color: #FFFFFF;
-    width: 20%;
     margin-right: 24px;
     margin-top: 4px;
     padding: 8px;
+    height: 215px;
     border: 1px solid #CCC;
 }
 
-.explain
-{
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 36px;
-    margin-top: 24px;
-    width: 800px;
-    text-align: justify;
-    display: none;
-}
