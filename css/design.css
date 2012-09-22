@@ -4,8 +4,9 @@ body
     font-family: Helvetica;
     font: 24px/1.8 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     width:80%;
+    text-align: justify;
     padding:20px 0;
-    max-width: 960px;
+    max-width: 720px;
     margin:0 auto;
     color: #222;
     margin-bottom: 32px;
