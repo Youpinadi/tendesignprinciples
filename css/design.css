@@ -5,7 +5,7 @@ body
     font: 24px/1.8 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     width:80%;
     padding:20px 0;
-    max-width:960px;
+    max-width: 960px;
     margin:0 auto;
     color: #222;
     margin-bottom: 32px;
@@ -63,7 +63,7 @@ iframe
 h1
 {
     text-align:left;
-    font-family: "league-gothic-1","league-gothic-2";
+    font-family: "league-gothic-1","league-gothic-2", Impact;
     text-transform: uppercase;
     line-height:1;
     font-size:300%;
@@ -81,5 +81,27 @@ p img
     padding: 8px;
     height: 215px;
     border: 1px solid #CCC;
+}
+
+
+.slabtexted .slabtext
+{
+    display:-moz-inline-box;
+    display:inline-block
+    white-space:nowrap;
+}
+.slabtextinactive .slabtext
+{
+    display:inline;
+    white-space:normal;
+    font-size:1em !important;
+    letter-spacing:inherit !important;
+    word-spacing:inherit !important;
+    *letter-spacing:0 !important;
+    *word-spacing:0 !important;
+}
+.slabtextdone .slabtext
+{
+    display:block
 }
 
